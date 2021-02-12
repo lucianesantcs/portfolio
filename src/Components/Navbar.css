@@ -1,0 +1,99 @@
+.nav-menu {
+  height: 100vh;
+  background-color: var(--navigation-bg);
+}
+
+.nav-menu-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.nav-menu-toggle:last-child {
+  margin-top: auto;
+}
+
+.nav-text,
+button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 14px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a,
+button {
+  text-decoration: none;
+  color: var(--navigation-link);
+  font-size: 0.9rem;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 5px;
+  background: transparent;
+  border: none;
+}
+.nav-text button:focus {
+  border: none;
+  outline: none;
+}
+
+.nav-text a:hover,
+.nav-text button:hover {
+  background-color: var(--navigation-link-bg-hover);
+  color: var(--navigation-link-hover);
+  cursor: pointer;
+}
+
+.nav-text span {
+  margin-left: 16px;
+  font-weight: 400;
+}
+
+.nav-text a.active {
+  background: var(--navigation-accent);
+}
+
+.nav-menu-toggle a.active {
+  background: inherit;
+}
+
+.active span {
+  color: var(--navigation-link-accent);
+  font-weight: 600;
+}
+
+.active svg {
+  stroke: var(--navigation-link-accent);
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-menu .menu-toggle {
+    cursor: pointer;
+    display: block;
+  }
+
+  .nav-menu,
+  .nav-menu-items {
+    width: 60px;
+  }
+
+  .nav-text {
+    padding: 5px;
+  }
+
+  .nav-menu .nav-text span {
+    display: none;
+  }
+
+  .nav-menu .nav-text a svg {
+    width: 15px;
+    height: 15px;
+  }
+}

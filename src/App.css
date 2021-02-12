@@ -1,0 +1,230 @@
+:root {
+  /* fonts  */
+  --title-font: "Sintony";
+  --body-font: "Oxygen";
+
+  --body-font-size: 16px;
+  --title-font-size: 2rem;
+  --title-sub-font-size: 1.188rem;
+  --paragraph-font-size: 0.875rem;
+
+  /* responsive font sizes  */
+  --res-title-font-size: 1.5rem;
+  --res-title-sub-font-size: 1rem;
+  --res-paragraph-font-size: 0.875rem;
+
+  /* dark/main colors */
+  --theme-color: #f5f5f5;
+  --theme-bg: #1a1e23;
+  --theme-borders: #2b3135;
+
+  /* --accent: #d76aa8; */
+  --accent: #ce1e5d;
+  --accent-text: #ffffff;
+  --accent-secondary: #8bc5ff;
+
+  --navigation-link: #ffffff;
+  --navigation-bg: #21262c;
+  --navigation-link-hover: #ffffff;
+  --navigation-link-bg-hover: #2d343c;
+  --navigation-link-accent: #ffffff;
+  --navigation-accent: #ce1e5d;
+
+  --card-bg: #21262c;
+  --card-element-bg: #1b1e22;
+  --card-text: #f5f5f5;
+  --card-text-hover: #9aadc3;
+
+  --icon-color: #f5f5f5;
+  --icon-bg-color: #555e68;
+  --icon-color-hover: #f5f5f5;
+  --icon-bg-hover-color: #2d343c;
+
+  /* light colors */
+  --light-theme-color: #1a1e23;
+  --light-theme-bg: #f5f5f5;
+  --light-theme-borders: #e2e2e2;
+
+  --light-accent-secondary: #384f66;
+
+  --light-card-bg: #f1f1f1;
+  --light-card-element-bg: #e4e4e4;
+  --light-card-text: #131313;
+  --light-card-text-hover: #58616b;
+
+  --light-icon-bg-color: #1a1e23;
+  --light-icon-bg-hover-color: #555e68;
+
+  /* others  */
+  --transitions: all 0.3s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--theme-color);
+  background: var(--theme-bg);
+  font-size: var(--body-font-size);
+}
+
+/* light mode colors  */
+body.light {
+  --theme-bg: var(--light-theme-bg);
+  --theme-color: var(--light-theme-color);
+  --theme-borders: var(--light-theme-borders);
+
+  --accent-secondary: var(--light-accent-secondary);
+
+  --card-bg: var(--light-card-bg);
+  --card-element-bg: var(--light-card-element-bg);
+  --card-text: var(--light-card-text);
+  --card-text-hover: var(--light-card-text-hover);
+
+  --icon-bg-color: var(--light-icon-bg-color);
+  --icon-bg-hover-color: var(--light-icon-bg-hover-color);
+}
+
+img {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transitions);
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: var(--title-font-size);
+  font-family: var(--title-font);
+}
+
+h3 {
+  font-size: var(--title-sub-font-size);
+}
+
+::-moz-selection {
+  background-color: var(--accent);
+  color: var(--accent-text);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-text);
+}
+
+/* 
+  credit to: https://codepen.io/reiinii1/pen/aPGXEa
+*/
+[data-tooltip] {
+  position: relative;
+  z-index: 15;
+}
+
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 5px); /* 5px is the size of the arrow */
+  pointer-events: none;
+  transition: var(--transitions);
+  will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+  content: attr(data-tooltip);
+  padding: 5px 15px;
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  width: -moz-max-content;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: var(--accent);
+  color: var(--accent-text);
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px);
+}
+
+/* Tooltip arrow */
+[data-tooltip]:after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 5px 0.1px 5px; /* CSS triangle */
+  border-color: var(--accent) transparent transparent transparent;
+  transition-duration: 0s; /* If the mouse leaves the element, 
+                              the transition effects for the 
+                              tooltip arrow are "turned off" */
+  transform-origin: top; /* Orientation setting for the
+                              slide-down effect */
+  transform: translateX(-50%) scaleY(0);
+}
+
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+  transition-delay: 0.3s;
+  transform: translate(-50%, -5px);
+}
+/* 
+  Arrow slide down effect only on mouseenter (NOT on mouseleave)
+*/
+[data-tooltip]:hover:after {
+  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-duration: 0.2s;
+  transform: translateX(-50%);
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 200px 1fr;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: inherit;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 70px 1fr;
+    position: relative;
+  }
+}
