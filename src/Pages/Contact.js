@@ -19,8 +19,8 @@ const Contact = () => {
                   <strong>lucianesantcs@gmail.com</strong>
                 </u>
               </a>{" "}
-              para assuntos sobre contratação em vagas Fron-End Júnior, freelance em projetos
-              pequenos, ou até mesmo se precisar de ajuda com algum projeto.
+              para assuntos sobre contratação em vagas Front-End Júnior, freelance em projetos
+              pequenos, colaborações, ou até mesmo se precisar de ajuda com algum projeto.
             </p>
           </div>
           <div className="contact-content-item-horizontal-divider"></div>
