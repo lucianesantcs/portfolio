@@ -10,6 +10,7 @@ Código do meu portfolio criado em React Js, salvo como backup e para futuras al
 - [ ] Refatorar Componentes (código js)
 - [ ] Trocar CSS para styled-components
 - [ ] Adicionar página currículo/habilidades
+- [ ] Implementar modal em projetos
 
 **Luciane Santos**
 
