@@ -14,6 +14,10 @@ import todo from "../assets/projects/todo.png";
 import amazinggraph from "../assets/projects/amazinggraph.png";
 import proffy from "../assets/projects/proffy.png";
 import beTheHero from "../assets/projects/be-the-hero.png";
+import workPlin from "../assets/projects/work-plin.png";
+import creditCard from "../assets/projects/credit-card.png";
+import onlineLibrary from "../assets/projects/online-library.png";
+import ultraLandingPage from "../assets/projects/ultra-landing-page.png";
 
 function Projects() {
   const [filter, setFilter] = useState("");
@@ -58,6 +62,22 @@ function Projects() {
         "contributed",
       ],
       description: "Sistema de cadastro para doadores de sangue, desenvolvido na Maratona Dev",
+    },
+    {
+      projectImage: ultraLandingPage,
+      name: "ultra landing page",
+      githubURL: "https://github.com/lucianesantcs/ultra-landing-page",
+      previewURL: "https://ultra-landing-page.vercel.app/",
+      tags: [
+        "javascript",
+        "reactjs",
+        "font-end",
+        "contributed",
+        "responsive",
+        "styled-components",
+        "react-hooks",
+      ],
+      description: "Landing page de uma agência de marketing",
     },
     {
       projectImage: proffy,
@@ -120,6 +140,30 @@ function Projects() {
       githubURL: "https://github.com/lucianesantcs/orcamento-pessoal/",
       tags: ["javascript", "bootstrap", "font-end", "local-storage", "contributed"],
       description: "Aplicativo que cadastra e permite a consulta de despesas",
+    },
+    {
+      projectImage: workPlin,
+      name: "work plin",
+      previewURL: "https://lucianesantcs.github.io/work-plin/",
+      githubURL: "https://github.com/lucianesantcs/work-plin/",
+      tags: ["html", "css", "flexbox", "grid", "font-end", "mine", "responsive"],
+      description: "Landing page de locação de co-work online",
+    },
+    {
+      projectImage: creditCard,
+      name: "credit card checkout",
+      previewURL: "https://dribbble.com/shots/14206123-Credit-Card-Checkout",
+      figmaURL: "https://www.figma.com/file/zzMpg4F3L0n1DwNFjeQr85/credit-card",
+      tags: ["ui-design", "front-end"],
+      description: "Formulário de cartão de crédito de uma loja de roupas",
+    },
+    {
+      projectImage: onlineLibrary,
+      name: "sing up modal",
+      previewURL: "https://dribbble.com/shots/14189122-Online-Library-Modal",
+      figmaURL: "https://www.figma.com/file/CGZvEtvbSiMTJ3wlJA41wR/online-library-modal",
+      tags: ["ui-design", "front-end"],
+      description: "Modal de sign up de uma livraria online",
     },
   ];
 
