@@ -23,23 +23,24 @@ const Project = (props) => {
         <div className="projects-info-horizontal-divider"></div>
         <div className="projects-info-text">
           <span>
-            {figmaURL !== undefined ? (
-              <>
-                <a href={figmaURL} target="_blank" rel="noreferrer" data-tooltip="Design">
-                  figma
-                </a>{" "}
-                <span> / </span>{" "}
-              </>
-            ) : (
-              ""
-            )}
-
             {githubURL !== undefined ? (
               <a href={githubURL} target="_blank" rel="noreferrer" data-tooltip="Código">
                 github
               </a>
             ) : (
               ""
+            )}
+
+            {figmaURL && githubURL ? <> / </> : ""}
+
+            {figmaURL === undefined ? (
+              ""
+            ) : (
+              <>
+                <a href={figmaURL} target="_blank" rel="noreferrer" data-tooltip="Design">
+                  figma
+                </a>
+              </>
             )}
           </span>
         </div>
