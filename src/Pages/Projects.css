@@ -171,10 +171,6 @@
     padding: 10px 0 0;
   }
 
-  .projects-info:last-child {
-    display: inline-block;
-  }
-
   .projects-info-horizontal-divider {
     display: none;
   }
@@ -186,5 +182,6 @@
 
   .projects-info-tags {
     margin-bottom: 10px;
+    order: 2;
   }
 }

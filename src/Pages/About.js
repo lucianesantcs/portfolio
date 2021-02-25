@@ -21,16 +21,15 @@ function About() {
               UI Designer
             </h3>
             <p>
-              Amante de tecnologia e design, autodidata na programação e estou sempre querendo
-              aprender mais sobre o assunto. Possuo conhecimento em{" "}
+              Tenho 26 anos, sou amante de tecnologia e design. 6+ anos sendo autodidata na
+              programação começando com os pilares do front-end nas linguagens html e css, mais
+              tarde o javascript. Portanto possuo conhecimento em{" "}
               <u className="underline">HTML5, CSS3 e JavaScript</u>. No momento estou estudando{" "}
-              <u className="underline">ReactJS</u>, também conheço um pouco de{" "}
-              <u className="underline">VueJS</u>. Meu foco é apenas no front-end e na linguagem{" "}
+              <u className="underline">ReactJS</u> e meu foco é apenas no front-end e na linguagem{" "}
               <u className="underline">JavaScript</u>, mas tenho interesse em{" "}
               <u className="underline">UI Design</u> e uso <u className="underline">Figma</u> para
-              criação de interfaces, também tenho familiaridade com{" "}
-              <u className="underline">Adobe Photoshop</u>, para edição de imagens e um pouco de
-              criação de interfaces.
+              criação de interfaces. Também tenho familiaridade com{" "}
+              <u className="underline">Adobe Photoshop</u> para edição de imagens.
             </p>
           </div>
           <nav className="about-content-item">
