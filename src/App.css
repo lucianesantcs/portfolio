@@ -45,6 +45,7 @@
   --light-theme-bg: #f5f5f5;
   --light-theme-borders: #e2e2e2;
 
+  --light-accent: #8bc5ff;
   --light-accent-secondary: #384f66;
 
   --light-card-bg: #f1f1f1;
@@ -79,6 +80,9 @@ body.light {
   --theme-color: var(--light-theme-color);
   --theme-borders: var(--light-theme-borders);
 
+  --navigation-accent: var(--light-accent);
+
+  --accent: var(--light-accent);
   --accent-secondary: var(--light-accent-secondary);
 
   --card-bg: var(--light-card-bg);

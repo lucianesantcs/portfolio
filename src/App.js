@@ -2,8 +2,8 @@ import { HashRouter as BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
-import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects/Projects";
 
 function App() {
   return (

@@ -1,0 +1,21 @@
+.buttons {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.projects {
+  height: 100vh;
+  overflow: auto;
+}
+
+.projectsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

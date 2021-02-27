@@ -1,0 +1,24 @@
+.button {
+  width: 135px;
+  display: inline-block;
+  padding: 10px 5px;
+  margin: 0 7px 10px;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-color);
+  background: var(--icon-bg-hover-color);
+  transition: var(--transitions);
+}
+
+.button:hover {
+  background: var(--icon-bg-color);
+  color: var(--icon-color-hover);
+  cursor: pointer;
+}
+
+.button:checked,
+.button:focus {
+  border: none;
+  outline: none;
+  background: var(--accent);
+}
