@@ -9,6 +9,7 @@ export { default as amazingGraph } from "./amazing-graph.png";
 export { default as todo } from "./todo.png";
 export { default as quizz } from "./quizz.png";
 export { default as orcamento } from "./orcamento.png";
+export { default as tictactoe } from "./tic-tac-toe.png";
 
 export { default as doe } from "./doe.png";
 export { default as ultraLandingPage } from "./ultra-landing-page.png";
