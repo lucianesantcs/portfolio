@@ -1,5 +1,6 @@
 .buttons {
-  width: 70%;
+  min-width: 70%;
+  max-width: 545px;
   margin: 40px auto;
   display: flex;
   align-items: center;
