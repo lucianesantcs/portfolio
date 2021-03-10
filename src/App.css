@@ -36,6 +36,7 @@
   --card-text-hover: #9aadc3;
 
   --icon-color: #f5f5f5;
+  --icon-color-secondary: #f5f5f5;
   --icon-bg-color: #555e68;
   --icon-color-hover: #f5f5f5;
   --icon-bg-hover-color: #2d343c;
@@ -54,6 +55,7 @@
   --light-card-text-hover: #58616b;
 
   --light-icon-bg-color: #1a1e23;
+  --light-icon-color-secondary: #1a1e23;
   --light-icon-bg-hover-color: #555e68;
 
   /* others  */
@@ -91,6 +93,7 @@ body.light {
   --card-text-hover: var(--light-card-text-hover);
 
   --icon-bg-color: var(--light-icon-bg-color);
+  --icon-color-secondary: var(--light-icon-color-secondary);
   --icon-bg-hover-color: var(--light-icon-bg-hover-color);
 }
 

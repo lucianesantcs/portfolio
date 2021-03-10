@@ -86,9 +86,9 @@
 .contact-content-item .contact-social li svg {
   width: 40px;
   height: auto;
-  stroke: var(--icon-color);
+  stroke: var(--icon-color-secondary);
   padding: 10px;
-  background-color: var(--icon-bg-color);
+  background-color: var(--theme-bg);
   border-radius: 5px;
   transition: var(--transitions);
 }
@@ -123,7 +123,7 @@
 
   .contact-content-item .contact-social li {
     display: inline-block;
-    margin: 20px 10px 0 0;
+    margin: 20px 30px 0 0;
     text-align: center;
   }
 
