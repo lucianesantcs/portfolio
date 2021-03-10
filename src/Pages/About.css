@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.about-content-item > p {
+  text-align: left;
+  columns: 2 250px;
+}
+
 .about-content-item .about-image {
   width: 140px;
   height: 140px;
@@ -31,7 +36,7 @@
 
 .about-content-item p {
   font-size: var(--paragraph-font-size);
-  line-height: calc(var(--paragraph-font-size) * 1.5);
+  line-height: calc(var(--paragraph-font-size) * 1.7);
 }
 
 .about-content-item h3,
@@ -98,6 +103,11 @@ u.underline {
 
   .about-content-item h3 {
     font-size: var(--res-title-sub-font-size);
+  }
+
+  .about-content-item > p {
+    text-align: center;
+    columns: 1 auto;
   }
 
   .about-content-item p {
