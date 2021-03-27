@@ -11,7 +11,6 @@ import {
   orcamento,
   tictactoe,
   doe,
-  ultraLandingPage,
   proffy,
   beTheHero,
 } from "../../assets/images";
@@ -149,25 +148,6 @@ export const projects = [
     urlNameHover: "Código",
     description: "Sistema de cadastro para doadores de sangue, desenvolvido na Maratona Dev",
     tags: ["javascript", "nodejs", "font-end", "back-end", "postgresql", "nunjucks", "contributed"],
-  },
-  {
-    imageUrl: ultraLandingPage,
-    name: "ultra landing page",
-    previewUrl: "https://ultra-landing-page.vercel.app/",
-    previewNameHover: "Live Preview",
-    url: "https://github.com/lucianesantcs/ultra-landing-page",
-    urlName: "github",
-    urlNameHover: "Código",
-    description: "Landing page de uma agência de marketing",
-    tags: [
-      "javascript",
-      "reactjs",
-      "font-end",
-      "contributed",
-      "responsive",
-      "styled-components",
-      "react-hooks",
-    ],
   },
   {
     imageUrl: proffy,

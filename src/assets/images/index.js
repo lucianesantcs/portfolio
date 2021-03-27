@@ -13,6 +13,5 @@ export { default as orcamento } from "./orcamento.png";
 export { default as tictactoe } from "./tic-tac-toe.png";
 
 export { default as doe } from "./doe.png";
-export { default as ultraLandingPage } from "./ultra-landing-page.png";
 export { default as proffy } from "./proffy.png";
 export { default as beTheHero } from "./be-the-hero.png";
