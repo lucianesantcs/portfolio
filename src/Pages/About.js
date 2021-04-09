@@ -21,12 +21,12 @@ function About() {
               UI Designer
             </h3>
             <p>
-              Tenho 26 anos, seis+ deles sendo autodidata no mundo da programação começando com os
-              pilares do Front-End com as linguagens HTML e CSS, um pouco mais tarde o Javascript.
-              Possuo conhecimento em <u className="underline">HTML5 e CSS3</u>. No momento estou
-              estudando <u className="underline">ReactJS</u> e procurando me aprofundar mais na
-              linguagem <u className="underline">Javascript</u>, sendo meu foco nela e no front-end,
-              mas tenho interesse em <u className="underline">UI Design</u> e uso{" "}
+              6+ anos sendo autodidata no mundo da programação começando com os pilares do Front-End
+              com as linguagens HTML e CSS, um pouco mais tarde o Javascript. Possuo conhecimento em{" "}
+              <u className="underline">HTML5 e CSS3</u>. No momento estou estudando{" "}
+              <u className="underline">ReactJS</u> e procurando me aprofundar mais na linguagem{" "}
+              <u className="underline">Javascript</u>, sendo meu foco nela e no front-end, mas tenho
+              interesse em <u className="underline">UI Design</u> e uso{" "}
               <u className="underline">Figma</u> para criação de interfaces. Também tenho
               familiaridade com <u className="underline">Adobe Photoshop</u> para edição de imagens.
             </p>
