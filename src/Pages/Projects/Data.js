@@ -5,6 +5,7 @@ import {
   workPlin,
   selfcare,
   amazingGraph,
+  counter,
   animaisFantasticos,
   todo,
   quizz,
@@ -28,7 +29,7 @@ export const projects = [
     designName: "figma",
     designNameHover: "Design",
     description: "Código da landing page Get Coffee do desafio no DevChallenge",
-    tags: ["html", "css", "grid", "font-end", "mine", "ui-design", "responsive"],
+    tags: ["html", "css", "grid", "font-end", "mine", "ui-design", "responsive", "challenges"],
   },
   {
     imageUrl: creditCard,
@@ -60,7 +61,7 @@ export const projects = [
     url: "https://github.com/lucianesantcs/work-plin/",
     urlName: "github",
     urlNameHover: "Código",
-    tags: ["html", "css", "flexbox", "grid", "font-end", "mine", "responsive"],
+    tags: ["html", "css", "flexbox", "grid", "font-end", "mine", "responsive", "challenges"],
     description: "Landing page de locação de co-work online",
   },
   {
@@ -72,7 +73,7 @@ export const projects = [
     urlName: "github",
     urlNameHover: "Código",
     description: "Landing page de uma loja online para produtos de beleza",
-    tags: ["html", "css", "flexbox", "font-end", "mine", "responsive"],
+    tags: ["html", "css", "flexbox", "font-end", "mine", "responsive", "challenges"],
   },
   {
     imageUrl: amazingGraph,
@@ -84,6 +85,17 @@ export const projects = [
     urlNameHover: "Código",
     description: "Landing page para site de criação de gráficos",
     tags: ["html", "css", "sass", "flexbox", "font-end", "mine", "responsive"],
+  },
+  {
+    imageUrl: counter,
+    name: "countdown app",
+    previewUrl: "https://lucianesantcs.github.io/contador/",
+    previewNameHover: "Live Preview",
+    url: "https://github.com/lucianesantcs/contador/",
+    urlName: "github",
+    urlNameHover: "Código",
+    description: "App de countdown com vanilla javascript",
+    tags: ["flexbox", "javascript", "font-end", "mine", "challenges"],
   },
   {
     imageUrl: animaisFantasticos,

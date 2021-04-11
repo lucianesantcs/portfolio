@@ -6,6 +6,7 @@ export { default as workPlin } from "./work-plin.png";
 export { default as selfcare } from "./selfcare.png";
 export { default as amazingGraph } from "./amazing-graph.png";
 
+export { default as counter } from "./counter.png";
 export { default as animaisFantasticos } from "./animais-fantasticos.png";
 export { default as todo } from "./todo.png";
 export { default as quizz } from "./quizz.png";
