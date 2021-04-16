@@ -1,0 +1,125 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.contactContentItem {
+  width: 45%;
+  padding: 0 20px;
+}
+
+.contactContentItemHorizontalDivider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactContentItemHorizontalDivider::after {
+  content: "";
+  width: 1px;
+  height: 300px;
+  background: var(--theme-borders);
+}
+
+.contactContentItem:first-child {
+  margin-right: 100px;
+}
+
+.contactContentItem:last-child {
+  margin-left: 100px;
+}
+
+.contactContentItem h2 {
+  font-size: var(--title-font-size);
+}
+
+.contactContentItem h2::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 1px;
+  background: var(--theme-borders);
+  margin-top: 1rem;
+}
+
+.contactContentItem p {
+  font-size: var(--paragraph-font-size);
+  line-height: calc(var(--paragraph-font-size) * 1.5);
+}
+
+.contactContentItem h2,
+.contactContentItem p {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.contactContentItem .contactSocial li {
+  display: flex;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.contactContentItem .contactSocial li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactContentItem .contactSocial li svg {
+  width: 40px;
+  height: auto;
+  stroke: var(--icon-color-secondary);
+  padding: 10px;
+  background-color: var(--theme-bg);
+  border-radius: 5px;
+  transition: var(--transitions);
+}
+
+.contactContentItem .contactSocial li a:hover {
+  color: var(--accent-secondary);
+}
+
+@media only screen and (max-width: 1024px) {
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .contactContentItem {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .contactContentItem:first-child {
+    margin-right: 0;
+  }
+
+  .contactContentItem:last-child {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .contactContentItemHorizontalDivider {
+    display: none;
+  }
+
+  .contactContentItem .contactSocial li {
+    display: inline-block;
+    margin: 20px 30px 0 0;
+    text-align: center;
+  }
+
+  .contactContentItem .contactSocial svg {
+    margin-bottom: 15px;
+  }
+}

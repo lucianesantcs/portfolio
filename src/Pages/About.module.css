@@ -6,22 +6,22 @@
   overflow: auto;
 }
 
-.about-content {
+.aboutContent {
   width: 90%;
   max-width: 550px;
   margin: 50px 0;
 }
 
-.about-content-item {
+.aboutContentItem {
   text-align: center;
 }
 
-.about-content-item > p {
+.aboutContentItem > p {
   text-align: left;
   columns: 2 250px;
 }
 
-.about-content-item .about-image {
+.aboutContentItem .aboutImage {
   width: 140px;
   height: 140px;
   margin: auto;
@@ -30,17 +30,17 @@
   transition: var(--transitions);
 }
 
-.about-content-item .about-image:hover {
+.aboutContentItem .aboutImage:hover {
   transform: scale(1.1);
 }
 
-.about-content-item p {
+.aboutContentItem p {
   font-size: var(--paragraph-font-size);
   line-height: calc(var(--paragraph-font-size) * 1.7);
 }
 
-.about-content-item h3,
-.about-content-item p {
+.aboutContentItem h3,
+.aboutContentItem p {
   margin-bottom: 2rem;
   font-weight: 400;
 }
@@ -49,7 +49,7 @@ u.underline {
   text-decoration: var(--accent-secondary) wavy underline 2px;
 }
 
-.about-content-item h3::after {
+.aboutContentItem h3::after {
   content: "";
   display: block;
   width: 30%;
@@ -59,7 +59,7 @@ u.underline {
   margin-top: 1rem;
 }
 
-.about-content-item .about-social {
+.aboutContentItem .aboutSocial {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -67,15 +67,15 @@ u.underline {
   margin-top: 5rem;
 }
 
-.about-content-item .about-social li {
+.aboutContentItem .aboutSocial li {
   margin-right: 25px;
 }
 
-.about-content-item .about-social li:last-child {
+.aboutContentItem .aboutSocial li:last-child {
   margin-right: 0;
 }
 
-.about-content-item .about-social li svg {
+.aboutContentItem .aboutSocial li svg {
   width: 40px;
   height: auto;
   stroke: var(--icon-color);
@@ -85,32 +85,32 @@ u.underline {
   transition: var(--transitions);
 }
 
-.about-content-item .about-social li svg:hover {
+.aboutContentItem .aboutSocial li svg:hover {
   stroke: var(--icon-color-hover);
   background-color: var(--icon-bg-hover-color);
 }
 
 @media only screen and (max-width: 800px) {
-  .about-content-item .about-image {
+  .aboutContentItem .aboutImage {
     width: 100px;
     height: 100px;
     margin-bottom: 1rem;
   }
 
-  .about-content-item h1 {
+  .aboutContentItem h1 {
     font-size: var(--res-title-font-size);
   }
 
-  .about-content-item h3 {
+  .aboutContentItem h3 {
     font-size: var(--res-title-sub-font-size);
   }
 
-  .about-content-item > p {
+  .aboutContentItem > p {
     text-align: center;
     columns: 1 auto;
   }
 
-  .about-content-item p {
+  .aboutContentItem p {
     font-size: var(--res-paragraph-font-size);
     line-height: calc(var(--res-paragraph-font-size) * 1.5);
   }
