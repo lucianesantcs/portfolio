@@ -12,4 +12,4 @@ Código do meu portfolio criado em React Js, salvo como backup e para futuras al
 
 ### License
 
-Copyright © 2021 Luciane Santos
+<a href="https://github.com/lucianesantcs/portfolio/blob/master/LICENSE">MIT License</a> © 2021 Luciane Santos
