@@ -1,4 +1,4 @@
- ![banner]() 
+ ![banner](https://github.com/lucianesantcs/portfolio/blob/master/assets/portfolio-preview.gif?raw=true) 
  
 # Portfolio
 
