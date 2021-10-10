@@ -24,7 +24,7 @@ function About() {
               6+ anos sendo autodidata no mundo da programação começando com os pilares do Front-End
               com as linguagens HTML e CSS, um pouco mais tarde o Javascript. Possuo conhecimento em{" "}
               <u className={styles.underline}>HTML5 e CSS3</u>. No momento estou estudando{" "}
-              <u className={styles.underline}>Angular</u> e <u className={styles.underline}>ReactJs</u>, procurando me aprofundar mais na
+              <u className={styles.underline}>Angular</u> e <u className={styles.underline}>ReactJs</u>, procurando me aprofundar na
               linguagem <u className={styles.underline}>Javascript</u>, sendo meu foco nela e no
               front-end, mas tenho interesse em <u className={styles.underline}>UI Design</u> e uso{" "}
               <u className={styles.underline}>Figma</u> para criação de interfaces. Também tenho
