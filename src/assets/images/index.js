@@ -5,6 +5,8 @@ export { default as onlineLibrary } from "./online-library.png";
 export { default as workPlin } from "./work-plin.png";
 export { default as selfcare } from "./selfcare.png";
 export { default as amazingGraph } from "./amazing-graph.png";
+export { default as acessibilidadeModal } from "./acessibilidade-modal.gif";
+export { default as acessibilidadeForm } from "./acessibilidade-form.gif";
 
 export { default as counter } from "./counter.png";
 export { default as animaisFantasticos } from "./animais-fantasticos.png";

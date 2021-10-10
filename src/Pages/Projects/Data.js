@@ -5,6 +5,8 @@ import {
   workPlin,
   selfcare,
   amazingGraph,
+  acessibilidadeModal,
+  acessibilidadeForm,
   counter,
   animaisFantasticos,
   todo,
@@ -85,6 +87,24 @@ export const projects = [
     urlNameHover: "Código",
     description: "Landing page para site de criação de gráficos",
     tags: ["html", "css", "sass", "flexbox", "font-end", "mine", "responsive"],
+  },
+  {
+    imageUrl: acessibilidadeModal,
+    name: "acessibilidade modal",
+    url: "https://github.com/lucianesantcs/acessibilidade-modal",
+    urlName: "github",
+    urlNameHover: "Código",
+    description: "Modal construído seguindo as regras de acessibilidade do WCAG",
+    tags: ["angular", "javascript", "font-end", "mine", "contributed", "acessibilidade", "alura"],
+  },
+  {
+    imageUrl: acessibilidadeForm,
+    name: "acessibilidade form",
+    url: "https://github.com/lucianesantcs/acessibilidade-form",
+    urlName: "github",
+    urlNameHover: "Código",
+    description: "Simples form construído seguindo as regras de acessibilidade do WCAG",
+    tags: ["angular", "javascript", "font-end", "mine", "contributed", "acessibilidade", "alura"],
   },
   {
     imageUrl: counter,
@@ -240,6 +260,11 @@ export const buttons = [
   {
     value: "reactjs",
     text: "reactjs",
+    active: false,
+  },
+  {
+    value: "angular",
+    text: "angular",
     active: false,
   },
   {
