@@ -6,7 +6,6 @@ Código do meu portfolio criado em React Js, salvo como backup e para futuras al
 <br>
 <a href="https://lucianesantcs.github.io/">Link do portfolio</a>
 
-**Luciane Santos**
 
 - Email: lucianesantcs@gmail.com
 - GitHub: [@lucianesantcs](https://github.com/lucianesantcs)
