@@ -8,7 +8,10 @@ import Head from "../Components/Head";
 function About() {
   return (
     <>
-      <Head title="Sobre" description="Desenvolvedora front-end e UI Designer" />
+      <Head
+        title="Sobre"
+        description="Desenvolvedora front-end e UI Designer"
+      />
       <main className={`${styles.about} animeLeft`}>
         <div className={styles.aboutContent}>
           <div className={styles.aboutContentItem}>
@@ -21,21 +24,26 @@ function About() {
               UI Designer
             </h3>
             <p>
-              6+ anos sendo autodidata no mundo da programação começando com os pilares do Front-End
-              com as linguagens HTML e CSS, um pouco mais tarde o Javascript. Possuo conhecimento em{" "}
-              <u className={styles.underline}>HTML5 e CSS3</u>. No momento estou estudando{" "}
-              <u className={styles.underline}>Angular</u> e <u className={styles.underline}>ReactJs</u>, procurando me aprofundar na
-              linguagem <u className={styles.underline}>Javascript</u>, sendo meu foco nela e no
-              front-end, mas tenho interesse em <u className={styles.underline}>UI Design</u> e uso{" "}
-              <u className={styles.underline}>Figma</u> para criação de interfaces. Também tenho
-              familiaridade com <u className={styles.underline}>Adobe Photoshop</u> para edição de
-              imagens.
+              Autodidata no mundo da programação há{" "}
+              <u className={styles.underline}>seis anos</u>, começando com os
+              pilares do Front-End com as linguagens HTML, CSS, e JavaScript.
+              Possuo conhecimento nos frameworks{" "}
+              <u className={styles.underline}>Angular e React</u>, com foco
+              apenas no <u className={styles.underline}>Front-End</u> e na
+              linguagem <u className={styles.underline}>Javascript</u>, mas
+              tenho interesse em <u className={styles.underline}>UI Design</u> e
+              uso <u className={styles.underline}>Figma</u> para criação de
+              interfaces.
             </p>
           </div>
           <nav className={styles.aboutContentItem}>
             <ul className={styles.aboutSocial}>
               <li data-tooltip="Github">
-                <a href="https://github.com/lucianesantcs" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/lucianesantcs"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiIcons.FiGithub />
                 </a>
               </li>
@@ -49,7 +57,11 @@ function About() {
                 </a>
               </li>
               <li data-tooltip="Dribbble">
-                <a href="https://dribbble.com/lucianesantos" target="_blank" rel="noreferrer">
+                <a
+                  href="https://dribbble.com/lucianesantos"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiIcons.FiDribbble />
                 </a>
               </li>

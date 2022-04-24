@@ -16,11 +16,6 @@
   text-align: center;
 }
 
-.aboutContentItem > p {
-  text-align: left;
-  columns: 2 250px;
-}
-
 .aboutContentItem .aboutImage {
   width: 140px;
   height: 140px;
@@ -46,7 +41,7 @@
 }
 
 u.underline {
-  text-decoration: var(--accent-secondary) wavy underline 2px;
+  text-decoration: var(--accent) wavy underline 2px;
 }
 
 .aboutContentItem h3::after {
@@ -112,6 +107,6 @@ u.underline {
 
   .aboutContentItem p {
     font-size: var(--res-paragraph-font-size);
-    line-height: calc(var(--res-paragraph-font-size) * 1.5);
+    line-height: calc(var(--res-paragraph-font-size) * 1.9);
   }
 }
